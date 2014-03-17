@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+- (IBAction)goToApress:(id)sender;
 
 @end

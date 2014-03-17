@@ -22,6 +22,9 @@
 		3F54931018D683C30077D139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5492EF18D683C30077D139 /* UIKit.framework */; };
 		3F54931818D683C30077D139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F54931618D683C30077D139 /* InfoPlist.strings */; };
 		3F54931A18D683C30077D139 /* SwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F54931918D683C30077D139 /* SwitchTests.m */; };
+		3F54932618D6846F0077D139 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F54932318D6846F0077D139 /* icon.png */; };
+		3F54932718D6846F0077D139 /* PIC01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F54932418D6846F0077D139 /* PIC01.png */; };
+		3F54932818D6846F0077D139 /* PIC02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F54932518D6846F0077D139 /* PIC02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		3F54931518D683C30077D139 /* SwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchTests-Info.plist"; sourceTree = "<group>"; };
 		3F54931718D683C30077D139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F54931918D683C30077D139 /* SwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchTests.m; sourceTree = "<group>"; };
+		3F54932318D6846F0077D139 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3F54932418D6846F0077D139 /* PIC01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PIC01.png; sourceTree = "<group>"; };
+		3F54932518D6846F0077D139 /* PIC02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PIC02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 		3F5492F218D683C30077D139 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F54932318D6846F0077D139 /* icon.png */,
+				3F54932418D6846F0077D139 /* PIC01.png */,
+				3F54932518D6846F0077D139 /* PIC02.png */,
 				3F5492F318D683C30077D139 /* Switch-Info.plist */,
 				3F5492F418D683C30077D139 /* InfoPlist.strings */,
 				3F5492F718D683C30077D139 /* main.m */,
@@ -233,9 +242,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F54932618D6846F0077D139 /* icon.png in Resources */,
 				3F54930718D683C30077D139 /* Images.xcassets in Resources */,
 				3F5492F618D683C30077D139 /* InfoPlist.strings in Resources */,
 				3F5492FF18D683C30077D139 /* Main.storyboard in Resources */,
+				3F54932818D6846F0077D139 /* PIC02.png in Resources */,
+				3F54932718D6846F0077D139 /* PIC01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
